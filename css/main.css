@@ -24,3 +24,18 @@ button{
   margin: 4px 2px;
   cursor: pointer;
 }
+
+.pic-container {
+  width: 100%;
+  height: 350px;
+  overflow-y: auto;
+  overflow-x:hidden;
+}
+
+textarea{
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+}

@@ -1,0 +1,64 @@
+<!-- Enter your HTML code here. Plagiarism is NOT tolerated! -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <p>
+            <h1>Task Management</h1>
+        </p>
+
+        <div class="d-flex bd-highlight">
+            <div class="p-2 flex-grow-1 bd-highlight">
+                <h3>Task</h3>
+            </div>
+            <div class="p-2 bd-highlight">
+                <button type="button" id="sortPriority" class="btn btn-info">Sort priority</button>
+            </div>
+            <div class="p-2 bd-highlight">
+                <button type="button" id="addTask" class="btn btn-primary">Add Task</button>
+            </div>
+        </div>
+        <div class="pic-container">
+            <ul class="list-group list-group-flush" id="taskList">
+                <li class="list-group-item">
+                    <div class="d-flex bd-highlight">
+                        <div class="p-2 flex-grow-1 bd-highlight">
+                            <textarea disabled>Add a new task</textarea>
+                        </div>
+                        <div class="p-2 bd-highlight">
+                            <input type="date" class="form-control" disabled>
+                        </div>
+                        <div class="p-2 bd-highlight">
+                            <select class="custom-select" id="inputGroupSelect01" disabled>
+                                <option value="1">Low</option>
+                                <option value="2">Medium</option>
+                                <option value="3">High</option>
+                              </select>
+                        </div>
+                        <div class="p-2 bd-highlight">
+                            <button type="button" name="editTask" class="btn btn-warning">Edit</button>
+                        </div>
+                        <div class="p-2 bd-highlight">
+                            <button type="button" name="deleteTask" class="btn btn-danger">Delete</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <script src="task.js"></script>
+</body>
+
+</html>
